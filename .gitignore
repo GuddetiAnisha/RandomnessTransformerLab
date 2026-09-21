@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+.env
+data/private/
+data/*.bin
+reports/*
+!reports/.gitkeep
+checkpoints/
+*.pt
+*.pth

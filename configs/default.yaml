@@ -1,0 +1,21 @@
+seed: 42
+data:
+  source: markov
+  num_bits: 100000
+  source_params:
+    p_stay: 0.72
+model:
+  context_length: 64
+  target_bits: 1
+  d_model: 48
+  nhead: 4
+  num_layers: 2
+  dim_feedforward: 128
+  dropout: 0.1
+training:
+  epochs: 5
+  batch_size: 256
+  learning_rate: 0.001
+  weight_decay: 0.0001
+  patience: 2
+  stride: 1
