@@ -1,10 +1,4 @@
-# RandomnessTransformerLab
 
-Research prototype for **ML-Based Analysis of Classical and Quantum Random Number Generators**, aligned with Ericsson Master's Thesis Job ID 791176.
-
-The project trains compact Transformer models from scratch to predict the next bit or block in binary sequences, then compares predictive performance with classical statistical, entropy, and compression-based indicators.
-
-> **Important:** This is a research and educational prototype. Its tests are not a replacement for the official NIST Statistical Test Suite or a validated SP 800-90B entropy-assessment implementation. Cryptographic and quantum sources must be evaluated with approved tools and documented acquisition/preprocessing procedures.
 
 ## Included capabilities
 
